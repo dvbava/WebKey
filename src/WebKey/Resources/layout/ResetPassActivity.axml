@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="100dp">
+
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+    <TextView
+        android:layout_width="230px"
+        android:layout_height="wrap_content"
+        android:text="Password" />
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/reset_old_password"
+        android:hint="old password"
+        android:padding="5px"
+        android:textSize="14dip"
+        android:layout_margin="5px"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+  android:maxLines="1"/>
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:paddingLeft="10dp"
+      android:paddingRight="10dp">
+    <TextView
+        android:layout_width="230px"
+        android:layout_height="wrap_content"
+        android:text="Password" />
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/reset_new_password"
+        android:hint="password"
+        android:padding="5px"
+        android:textSize="14dip"
+        android:layout_margin="5px"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+  android:maxLines="1"/>
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:paddingLeft="10dp"
+      android:paddingRight="10dp">
+    <TextView
+        android:layout_width="230px"
+        android:layout_height="wrap_content"
+        android:text="Confirn" />
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/reset_new_confirm_password"
+        android:hint="confirm password"
+        android:padding="5px"
+        android:textSize="14dip"
+        android:layout_margin="5px"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+  android:maxLines="1"/>
+  </LinearLayout>
+
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingTop="30dp"
+        android:paddingRight="10dp">
+    <Button
+        android:text="Reset Password"
+        android:id="@+id/reset_btnProceed"
+        android:layout_height="120px"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/btn_circle" />
+    <Button
+        android:text="Cancel"
+        android:id="@+id/reset_btnCancel"
+        android:layout_height="120px"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/btn_circle" />
+  </LinearLayout>
+</LinearLayout>

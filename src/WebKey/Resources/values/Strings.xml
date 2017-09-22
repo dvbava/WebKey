@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Web Key</string>
+  <string name="menu_add">Add</string>
+  <string name="menu_reset">Reset</string>
+  <string name="menu_email">Email</string>
+  <string name="menu_import">Import</string>  
+</resources>
